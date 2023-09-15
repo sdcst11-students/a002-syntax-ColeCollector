@@ -39,7 +39,7 @@ hour.backward(100)
 
 
 def seconds():
-    time.sleep(0.7)
+    time.sleep(0.83)
     sec.clear()
     sec.goto(0,0)
     sec.speed(10)
@@ -62,15 +62,9 @@ while True:
     for i in range(60):
         seconds()
     mins()
-hour.right(0.5)
-
-#work herer
-    
-
-
-
-while True:
-    time.sleep(1)
-    break
+    hour.clear()
+    hour.right(0.5)
+    hour.forward(100)
+    hour.backward(100)
 
 
